@@ -1,5 +1,4 @@
-#PrefSyncService
-
+# PrefSyncService
 Since an Android Wear device is basically an accessory for a phone, it’s often convenient to place the configuration UI for watch apps on the linked phone, rather than on the watch itself. But this raises a problem: how to get those user preferences from the phone to the watch?
 
 The problem is compounded if you (the developer) also want to provide a configuration UI on the watch - perhaps for everything, or perhaps only for the most commonly-used settings. Then it’s not just a one-way data transfer, but a two-way synchronization that’s required. When the user makes a change on one UI, they expect to see it reflected on the other as well.
